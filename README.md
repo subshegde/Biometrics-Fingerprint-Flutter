@@ -49,7 +49,10 @@ I’m thrilled to share my latest project, where I integrated biometric authenti
 Check out the project demo below and feel free to ask questions or share your thoughts! 👇
 
 
-https://github.com/user-attachments/assets/7e251163-aeae-4a38-8a79-517b578897ba
+
+
+https://github.com/user-attachments/assets/479baf18-2a64-47c6-b17f-9a62a193a522
+
 
 
 #Flutter #Dart #BiometricAuthentication #GitHubAPI #AppDevelopment #MobileApp #FlutterDev #LocalAuth #Provider #GitHubRepos #SecureApp #Coding
