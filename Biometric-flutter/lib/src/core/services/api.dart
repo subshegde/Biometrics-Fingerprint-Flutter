@@ -1,6 +1,5 @@
 import 'dart:convert';
 import 'dart:developer';
-import 'package:biometric/src/core/utils/config.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:http/http.dart' as http;
 import 'package:biometric/src/ui/pages/home/home_vm.dart';
@@ -13,14 +12,14 @@ class ApiCall {
     
     final Uri url = Uri.parse('https://api.github.com/users/subshegde/repos?page=$page&per_page=$perPage');
 
+    String githubToken = '';
+
     final response = await http.get(
       url,
       headers: {
         'Authorization': 'Bearer $githubToken',
       },
     );
-
-    print('response ${response.statusCode}');
 
     if (response.statusCode == 200) {
       for (int index = 0; index < perPage; index++) {
